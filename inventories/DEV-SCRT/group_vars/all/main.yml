@@ -1,0 +1,5 @@
+# -----------------------------------
+# Main parameters
+# -----------------------------------
+env: dev-scrt
+endpoint: "dev-scrt.cluster.local"

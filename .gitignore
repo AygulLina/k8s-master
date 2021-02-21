@@ -1,0 +1,149 @@
+#
+# Standard ignore list (do not edit manually)
+#
+
+.build/
+packages/
+.vs/
+*.suo
+*proj.user
+*.VC.db
+*.VC.opendb
+ipch/
+*.Cache
+[Ss]tyle[Cc]op.*
+*.DotSettings.user
+
+#
+# Custom ignore list
+#
+/testdata/PbaBackupTestData.vhd
+/testdata/PbaBackupTestData.vhd
+/src/Tools/PbaSeed/bin/Debug
+/src/Tools/PbaSeed/obj/Debug
+/Settings.StyleCop
+_ReSharper.Caches/
+*.bak
+/src/Tools/PbaSeed2/bin/Debug
+/src/Tools/PbaSeed2/bin
+/src/Tools/PbaSeed2/obj
+/Configs/Paragon.Components.Events.EventFilter.exe.config
+/Configs/Paragon.Components.Annunciation.AppAnnunciator.exe.config
+/Configs/Paragon.Appliance.Server.Service.exe.config
+/Configs/Paragon.Appliance.Client.Shell.exe.config
+/src/Client/CodeGen/Paragon.Appliance.Api.Client/Clients.cs
+/src/Client/CodeGen/Paragon.Appliance.Api.Client/Contracts/Contracts.cs
+/src/Client/CodeGen/Paragon.Appliance.Api.Server/Clients.cs
+/src/Client/CodeGen/Paragon.Appliance.Api.Server/Contracts/Contracts.cs
+src/Client/Paragon.Appliance.Client.Web/.buildifchanged/
+/src/WebUI/.buildifchanged
+/enum_operation.log
+/samples/Paragon.Appliance.Samples.Console/Api
+inventories/PBA11-Mikael
+
+# Ansible logs
+ansible.log
+*.retry
+
+# ELK logs
+elk_mapreduce.log
+
+**/*.pyc
+
+# VirtualEnv folder
+.env
+**/.env
+.idea
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+
+# Installer logs
+pip-log.txt
+
+result/**
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+
+#vscode
+.vscode
+
+src/Worker/Paragon.Appliance.Worker.Http.Slim/Client.cs
+src/Worker/Paragon.Appliance.Worker.Tasks.Slim/Api/Contracts.cs
+*WebApi.Client.XML
+*WebApi.XML
+
+# Artifacts binaries
+.artifacts/
+
+# Temporary files (for local tests for example)
+temp/
+
+# Terraform unneeded files
+.terraform/
+*.plan

@@ -1,0 +1,13 @@
+---
+# -----------------------------------
+# Load Balancer
+# -----------------------------------
+
+globalingress:
+  is_managed: true # We can manage (or not) Nginx configuration during PBA deployment
+  ssl_enabled: true
+  ssl_certificate_source: local # local - from local folders, letsencrypt - automatically generated
+  redirect_https: true
+
+nginx:
+  is_containerized: false

@@ -1,0 +1,10 @@
+---
+# -----------------------------------
+# Keepalived
+# -----------------------------------
+keepalived:
+  interface: 'ens160'
+  router_id: 105
+  virtual_ip: '10.15.6.185'
+  passwd: 'SqgfX36x'
+  mx_server: 'mail.ccc.com'
